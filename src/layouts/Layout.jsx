@@ -5,9 +5,11 @@ import Footer from './Footer';
 
 function Layout() {
     return (
-        <div>
+        <div className='wrapper flex flex-col justify-between  h-screen max-h-full  w-full'>
+            <div className="boc">
             <Header/>
             <Outlet/> 
+            </div>
             <Footer/>           
         </div>
     );
