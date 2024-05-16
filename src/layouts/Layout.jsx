@@ -8,7 +8,9 @@ function Layout() {
         <div className='wrapper flex flex-col justify-between  h-screen max-h-full  w-full'>
             <div className="boc">
             <Header/>
+            <main>
             <Outlet/> 
+            </main>
             </div>
             <Footer/>           
         </div>

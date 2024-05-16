@@ -1,3 +1,20 @@
 body{
     background-color: #F4F7FD;
 }
+.offer{
+    background: linear-gradient(98.88deg, rgb(118, 87, 7) 2.44%,rgb(8, 84, 101) 98.163%);
+}
+.count{
+    background-image: url("./assets/img/countDoun.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.slider-container{
+    margin-right: -300px;
+    text-align: center;
+    margin: auto;
+}
+.slick-arrow{
+    display: none !important
+}
