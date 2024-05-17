@@ -7,7 +7,7 @@ import NewYearSlider from "./NewYearSlider";
 
 function Intro() {
     return (
-        <section className="header_top container 1440px mx-auto px-[20px] mt-[100px] bg-[#10525B] pt-[86px] text-center rounded-[10px]">
+        <section className="header_top container 1440px mx-auto px-[20px] mt-[100px] bg-[#10525B] pt-[86px] pb-[43px] text-center rounded-[10px]">
             <h1 className="text-[45px] font-bold text-white">
             Online batch admission of 2023 is going on!
             </h1>
@@ -30,8 +30,13 @@ function Intro() {
             </div>
                 <Link className="text-[#09F7F7] pt-[20px] pb-[23px] mx-auto">Know more about online batch</Link>
            
-
-           <div className="px-[20px] ">
+           <h3 className="font-bold text-[59px] text-white pt-[23px]">
+           New Year, New Skills
+           </h3>
+                <p className="font-light text-[27px] text-white pt-[18px]">
+                Ten Minute School courses and bundles will be available for more savings in the new yea
+                </p>
+           <div className="px-[20px] pt-[32px]">
            <NewYearSlider/>
            </div>
         </section>

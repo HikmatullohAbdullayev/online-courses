@@ -6,6 +6,7 @@ import newYear_data from "../data/new_year";
 import RigthArrowIcon from "../assets/icons/RigthArrowIcon";
 import LeftArrowIcon from "../assets/icons/LeftArrowIcon";
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 
 function NewYearSlider() {
 
@@ -17,26 +18,6 @@ function NewYearSlider() {
       sliderRef.slickPrev();
     };
 
-    // function SampleNextArrow(props) {
-    //     const { className, style, onClick } = props;
-    //     return (
-    //       <div
-    //         className={className}
-    //         style={{ ...style, display: "block", background: "red" }}
-    //         onClick={onClick}
-    //       />
-    //     );
-    //   }
-      
-    //   function SamplePrevArrow(props) {
-    //     const { className, style, onClick } = props;
-    //     return (
-    //       <span
-    //         className={className}
-    //         style={{ ...style, display: "block", background: "green" }}
-    //         onClick={onClick}> <LeftArrowIcon/></span>
-    //     );
-    //   }
   const settings = {
     dots: false,
     infinite: true,
@@ -44,8 +25,6 @@ function NewYearSlider() {
     slidesToShow: 4,
     slidesToScroll: 1,
     initialSlide: 1,
-    // nextArrow: <SampleNextArrow />,
-    // prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1024,
@@ -82,7 +61,9 @@ function NewYearSlider() {
     {
         newYear_data.map((item) => (
             <div key={item.id} className="">
-                <img className=" w-[200px] mx-auto " src={item.img} alt="" />
+              <Link>
+                <img className=" w-[200px] mx-auto " src={item.img} alt="img" />
+              </Link>
             </div>
         ))
     }
