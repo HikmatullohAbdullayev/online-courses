@@ -1,4 +1,5 @@
 import Intro from "../components/Intro";
+import NewCrash from "../components/NewCrash";
 import Reviw from "../components/Reviw";
 import Service from "../components/Service";
 
@@ -9,6 +10,7 @@ function Home() {
            <Intro/>
            <Service/>
            <Reviw/>
+           <NewCrash/>
         </div>
     );
 }
