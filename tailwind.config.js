@@ -13,8 +13,6 @@ export default {
       'mobile450': {'max':'450px'},
       // => @media (max-width: 450px) { ... }
       
-     
-      
       'mobile530': {'max':'530px'},
       // => @media (max-width: 530px) { ... }
       
@@ -35,6 +33,9 @@ export default {
       
       'tablemin': {'max': '845px'},
       // => @media (max-width: 845px) { ... }
+
+      'table900': {'max':'900px'} ,
+      // => @media (max-width: 900px) { ... }
 
       'table1005': {'max':'1005px'} ,
       // => @media (max-width: 1005px) { ... }

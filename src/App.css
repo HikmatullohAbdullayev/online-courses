@@ -18,3 +18,11 @@ body{
 .slick-arrow{
     display: none !important
 }
+.service{
+    background-image:url("../src/assets/img/bghomeimg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom center;
+}
+
+
