@@ -21,7 +21,7 @@ function NewYearSlider() {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 600,
     slidesToShow: 4,
     slidesToScroll: 1,
     initialSlide: 1,
@@ -29,14 +29,14 @@ function NewYearSlider() {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
           dots: false
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 750,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
@@ -44,7 +44,7 @@ function NewYearSlider() {
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 580,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
