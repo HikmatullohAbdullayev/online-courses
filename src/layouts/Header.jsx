@@ -18,10 +18,10 @@ function Header() {
     }
   return (
     <header>
-      <div className="header_top container max-w-[1440px] mx-auto px-[20px] flex justify-around items-center py-[40px]">
+      <div className="header_top container max-w-[1440px] mx-auto px-[20px] flex justify-around items-center py-[40px] mobile530:py-[18px] mobile530:px-[12px]">
         <div className="logo h-[50px] block">
           <Link className="w-full" to="/">
-            <img className="w-[100px]" src={logo} alt="logo" />
+            <img className="w-[100px] mobile530:w-[70px]" src={logo} alt="logo" />
           </Link>
         </div>
         <div className="tablemin:hidden">
@@ -29,9 +29,9 @@ function Header() {
         <Nav />
         </div>
         <div className="flex justify-between items-center gap-[20px] ">
-          <div className="sel mr-[31px] table1170:mr-[13px]">
+          <div className="sel mr-[31px] table1170:mr-[13px] ">
             <select
-              className="px-[12px] py-[5px] border border-solid border-black rounded-md shadow-md bg-transparent active:outline-[]"
+              className="px-[12px] py-[5px] border border-solid border-black rounded-md shadow-md bg-transparent mobile530:p-[2px]"
               name="languange"
               id="languange"
             >
