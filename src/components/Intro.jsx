@@ -17,7 +17,7 @@ function Intro() {
             <div className="max-w-[950px] grid grid-cols-[repeat(auto-fill,minmax(150px,1fr))]  pb-[20px] mx-auto  px-[10px] gap-[10px]  " >
                 {
                     class_data.map((item) => (
-                        <div key={item.id} className="py-[11px] mx-auto px-[20px]  w-[150px]  bg-white rounded-md hover:shadow-md">
+                        <div key={item.id} className="py-[11px] mx-auto px-[20px]   bg-white rounded-md hover:shadow-md">
                             <div className="img_bloc">
                                 <img  className="mx-auto inline-block" src={portfel} alt="img" />
                             </div>
