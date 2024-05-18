@@ -24,6 +24,16 @@ body{
     background-size: contain;
     background-position: bottom ;
 }
+.before::before{
+    display: block;
+    content:"";
+    width: 37px;
+    height: 37px;
+    background-image:url("/src/assets/img/done.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: contain;
 
+}
 
 
