@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
+
 import Admissionicon from "../assets/icons/AdmissionIcon"
-import RigthIcon from "../assets/icons/RigthIcon"
 import bgImg from "../assets/img/reviwimg.png"
 import rewiv_data from "../data/rewiv_data";
+import Button from "./Button";
 
 function Reviw() {
     return (
@@ -41,7 +41,7 @@ function Reviw() {
            </div>
            <div className="text-center flex justify-between items-center   ">
 
-           <Link className="text-white bg-[#0ABEBE] flex items-center  mx-auto gap-[10px] rounded-[10px] px-[29px] py-[19px] hover:gap-[15px]">CHOICE CLASS FOR <span className="fill-white"><RigthIcon/></span> </Link>
+           <Button>CHOICE CLASS FOR</Button>
            </div>
            </div>
         </section>

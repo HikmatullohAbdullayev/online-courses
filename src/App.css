@@ -36,4 +36,14 @@ body{
 
 }
 
-
+.downloads{
+/* background: radial-gradient(406.00% 45.01% at 71% 60%,rgb(239, 15, 203),rgb(13, 21, 92) 100%); */
+background: rgb(13,21,92);
+background: linear-gradient(90deg, rgba(13,21,92,1) 0%, rgba(239,15,203,1) 84%, rgba(13,21,92,1) 100%);
+}
+.bangladesh{
+    background-image:url("/src/assets/img/bangladesh_bgImg.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
