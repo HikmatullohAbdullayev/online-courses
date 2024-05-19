@@ -7,7 +7,7 @@ import NewYearSlider from "./NewYearSlider";
 
 function Intro() {
     return (
-        <section className="header_top container max-w-[1440px] mx-auto px-[20px] mt-[100px] bg-[#10525B] pt-[86px] pb-[43px] text-center rounded-[10px] mobil2:mt-[40px] mobile450:mt-[20px]">
+        <section className="header_top container max-w-[1440px] mx-auto px-[20px] mt-[100px] bg-[#10525B] pt-[86px] pb-[43px] text-center rounded-[10px] mobil2:mt-[10px]   mobile450:pb-[15px]  mobile450:pt-[10px]">
             <h1 className="text-[45px] font-bold px-[20px] text-white table1005:text-[36px] table1005:pt-[30px]">
             Online batch admission of 2023 is going on!
             </h1>

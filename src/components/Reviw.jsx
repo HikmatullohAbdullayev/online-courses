@@ -6,7 +6,7 @@ import Button from "./Button";
 
 function Reviw() {
     return (
-        <section className="container bg-white pt-[30px] pb-[50px] ">
+        <section className="container bg-white pt-[30px] pb-[50px]  mobile450:pb-[15px]  mobile450:pt-[20px] ">
         <div className="container   max-w-[1440px] mx-auto px-[20px] ">
            <div className="flex items-center justify-center gap-[10px] mx-auto w-full">
                 <span><Admissionicon/></span>
@@ -19,11 +19,11 @@ function Reviw() {
            May the progress of education continue from any part of the country under the care of the best teachers
            </p>
 
-           <div className="flex justify-between items-center pb-[150px] ">
+           <div className="flex justify-between items-center pb-[150px] mobile450:pb-[30px]">
             <div className="grid gap-[28px] table1005:mx-auto">
         {
             rewiv_data.map((item) =>(
-                <div key={item.id} className="flex justify-start  items-center gap-3 max-w-[611px] py-[20px] bg-[#F4F7FD] shadow-lg border rounded-[10px] mobil2:flex-col">
+                <div key={item.id} className="flex justify-start  items-center gap-3 max-w-[611px] py-[20px] bg-[#F4F7FD] shadow-lg border rounded-[10px] mobil2:flex-col   ">
                     <div className="imo p-[10px]">
                         <img src={item.img} alt={item.title} />
                     </div>

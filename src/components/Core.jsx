@@ -3,7 +3,7 @@ import coreImg from "../assets/img/detail_bgImg.png"
 
 function Core() {
     return (
-        <section className="bg-white pb-[80px]">
+        <section className="bg-white pb-[80px] mobile450:pb-[20px]">
             <div className="container  max-w-[1440px] mx-auto flex justify-between items-center  px-[20px] desktop:flex-col-reverse table:gap-[20px] ">
                 <div className="grid grid-cols-2 gap-[22px] mobile550:grid-cols-1">
                     

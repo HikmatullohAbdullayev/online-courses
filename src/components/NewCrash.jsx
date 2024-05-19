@@ -8,11 +8,11 @@ function NewCrash() {
            A New Crash Course Has Arrived
             </h1>
             
-            <div className=" grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))]  pb-[20px] mx-auto  px-[40px] gap-[10px]  " >
+            <div className=" grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))]  pb-[20px] mx-auto  px-[20px] gap-[10px]  " >
                 {
                     newcrush_data.map((item) => (
-                        <div key={item.id} className=" mx-auto   bg-white rounded-md hover:shadow-md">
-                            <div className="img_bloc">
+                        <div key={item.id} className=" mx-auto w-[300px]  bg-white rounded-md hover:shadow-md">
+                            <div className="img_bloc w-[300px]">
                                 <img  className="mx-auto w-full inline-block" src={course} alt="img" />
                             </div>
                             <p className="text-[18px] font-normal py-[5px] px-[8px]">{item.text}</p>

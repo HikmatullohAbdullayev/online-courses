@@ -4,7 +4,7 @@ import skills_data from "../data/skills_data";
 
 function Skills() {
     return (
-        <section className=" bg-black pt-[16px] pb-[94px]" >
+        <section className=" bg-black pt-[16px] pb-[94px]  mobile450:pb-[15px]  mobile450:pt-[20px]" >
             <div className="container max-w-[1440px] mx-auto px-[20px]">
             <div className="flex justify-center items-center gap-[10px]">
                 <div className="imgblok">

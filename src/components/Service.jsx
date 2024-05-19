@@ -3,7 +3,7 @@ import service_data from "../data/service";
 
 function Service() {
   return (
-    <section className="service container max-w-[1440px] mx-auto px-[20px] pt-[57px] pb-[270px] table1005:pb-[140px] ">
+    <section className="service container max-w-[1440px] mx-auto px-[20px] pt-[57px] pb-[270px] table1005:pb-[140px]  mobile450:pb-[15px]  mobile450:pt-[20px]">
       <h3 className="font-semibold text-[47px] mx-auto max-w-[639px] text-center">
         Organize Your own Learning Let the Journey Begin
       </h3>
